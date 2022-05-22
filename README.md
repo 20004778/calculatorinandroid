@@ -1,4 +1,4 @@
-### Ex.No:7 Develop a simple calculator using android studio.
+# Ex.No:7 Develop a simple calculator using android studio.
 ## AIM:
 To develop a program to develop a simple calculator in Android Studio.
 
@@ -6,25 +6,25 @@ To develop a program to develop a simple calculator in Android Studio.
 Android Studio(Min.required Artic Fox)
 
 ## ALGORITHM:
-# Step 1: 
+### Step 1: 
 Open Android Stdio and then click on File -> New -> New project.
 
-# Step 2: 
+### Step 2: 
 Then type the Application name as calculator and click Next.
 
-# Step 3: 
+### Step 3: 
 Then select the Minimum SDK as shown below and click Next.
 
-# Step 4: 
+### Step 4: 
 Then select the Empty Activity and click Next. Finally click Finish.
 
-# Step 5: 
+### Step 5: 
 Design layout using UI components in activity_main.xml.
 
-# Step 6: 
+### Step 6: 
 Display the calculator operation in MainActivity file.
 
-# Step 7: 
+### Step 7: 
 Save and run the application.
 
 ## PROGRAM:
@@ -33,7 +33,7 @@ Save and run the application.
 Developed by: SURYA R
 Registeration Number : 212220230052
 ```
-# activity_main.xml
+### activity_main.xml
 ```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -132,7 +132,7 @@ Registeration Number : 212220230052
         app:layout_constraintVertical_bias="1.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
-# activity2_main.xml
+### activity2_main.xml
 ```java
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -175,7 +175,7 @@ Registeration Number : 212220230052
         app:layout_constraintVertical_bias="0.164" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
-# MainActivity.java
+### MainActivity.java
 ```java
 package com.example.simplecalculator;
 import androidx.appcompat.app.AppCompatActivity;
@@ -245,7 +245,7 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
-# MainActivity2.java
+### MainActivity2.java
 ```java
 package com.example.simplecalculator;
 import androidx.appcompat.app.AppCompatActivity;
